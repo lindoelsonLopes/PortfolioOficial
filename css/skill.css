@@ -1,0 +1,36 @@
+.title {
+  font-family: 'Press Start2P', sans-serif;
+  color: #fff;
+  font-size: 25px;
+  padding-bottom: 16px;
+  margin-top: 5px;  
+}
+
+.skill-tech {
+  display: flex;
+  width: 430px;
+  margin-top: 62px;  
+}
+
+.skill-tech .icon {
+  margin-right: 25px;
+  
+}
+
+.icon {
+  margin: 0;
+ 
+}
+
+.progress-bar {
+  border: 5px solid #000;
+  width: 320px;
+  height: 40px;
+  background-color: #fff;
+}
+ 
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar {
+  background-color: #7C5E99;
+  
+}

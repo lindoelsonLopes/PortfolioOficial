@@ -1,0 +1,28 @@
+button {
+    margin: 10px 20px 10px 0;
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #44AAFF;
+    border: none;
+    box-shadow: 5px 5px #000000;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #44AAFF;
+    box-shadow: 5px 5px #44AAFF;
+    letter-spacing: 2px;
+    transition: 1s;
+  }
+
+  .btn-box {
+    margin-top: 38px;
+    margin-left: 181px;    
+  }
+
+  #btn {
+    margin-right: 112px;
+  }
+  
