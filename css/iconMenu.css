@@ -1,0 +1,14 @@
+.icon-menu {
+  background-image: url('../images/menuHamburguer.png');  
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 90px;
+  height: 90px;
+  text-indent: -9999px;   
+}
+
+@media (min-width: 980px) {
+    header > .icon-menu {
+      display: none;
+    }
+  }

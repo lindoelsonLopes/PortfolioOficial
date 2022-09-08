@@ -4,9 +4,9 @@
     box-sizing: border-box;
   }
 
-  /* body {
-    max-width: 1440px;
-  } */
+ /* body {
+    width: 100%;
+} */
 
   @font-face {
       font-family: 'Press Start2P';
