@@ -4,6 +4,7 @@ button {
     height: 60px;
     font-size: 20px;
     background-color: #44AAFF;
+    color: #FFFFFF;
     border: none;
     box-shadow: 5px 5px #000000;
     cursor: pointer;
@@ -24,5 +25,16 @@ button {
 
   #btn {
     margin-right: 112px;
+  }
+
+  button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Fira Code', monospace;
+  }
+  
+  button a:hover {
+    color: #44AAFF;
   }
   

@@ -15,7 +15,7 @@ nav {
   align-items: center;
 }
 
-a {
+.links {
   display: flex;
   align-items: center;
   list-style: square;
@@ -27,7 +27,7 @@ a {
   font-family: 'Fira Code', monospace;
 }
 
-a::before {
+.links::before {
   content: " ";
   background-color: #44AAFF;
   width: 10px;
@@ -36,7 +36,7 @@ a::before {
   box-shadow: 1px 1px #000000; 
 }
 
-a:hover {
+.links:hover {
   color: #44AAFF;
   text-shadow: 1px 1px #000000;
 }
