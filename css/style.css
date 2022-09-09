@@ -100,9 +100,42 @@ h2 {
   gap: 58px;  
 }
 
+ /* header > .menu {
+  display: flex;
+  background-color: #000000f8;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 16px;
+  padding-left: 16px;
+ }   */
+
 
 @media (max-width: 980px) {
-  header > .menu {
+  .menu {
     display: none;
-  }
-}
+    
+  }  
+  
+  .menu.active {
+    display: flex;
+    background-color: #000000f8;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    padding-left: 16px;
+  } 
+} 
+
+

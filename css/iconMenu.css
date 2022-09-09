@@ -4,11 +4,33 @@
   background-size: auto 100%;
   width: 90px;
   height: 90px;
-  text-indent: -9999px;   
+  text-indent: -9999px;
+  transition: transform 100ms linear;    
 }
 
+
+
+.icon-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #fff;
+  font-family: 'Press Start2P';
+  text-decoration: none;
+  font-size: 30px; 
+  transition: transform 100ms linear; 
+}
+
+.icon-close:hover {
+  transform: scale(1.3);
+}
+
+.icon-menu:hover {
+  transform: scale(1.2);
+} 
+
 @media (min-width: 980px) {
-    header > .icon-menu {
+  .icon-close, .icon-menu {
       display: none;
-    }
-  }
+    }    
+  } 
