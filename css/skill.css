@@ -34,3 +34,18 @@
   background-color: #7C5E99;
   
 }
+
+@media (max-width: 980px) {
+  .title {
+    font-size: 15px;
+  }
+
+  .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .progress-bar {
+    width: 250px;
+  }
+}

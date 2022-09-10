@@ -172,16 +172,22 @@ h2 {
   }
 
   .container-box > h1, h2 {
-    font-size: 20px;
+    font-size: 15px;
     margin: auto;
   }
   
-  .wrapper-skills {   
-    margin: 10px 20px;    
+  .wrapper-skills {
+    display: inline-block;   
+    margin: 10px 10px;
+    font-size: 30px;    
   }
   
   .progress-bar {
     width: 100%;
+  }
+
+  .box-project img {
+    margin: 0;
   }
   
 } 
